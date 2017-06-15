@@ -160,15 +160,17 @@ font-family: 'Indie Flower', cursive;
 }
 
 
-.pic > div {
-  padding: 0 !important;
-  float: left;
+/*section2 About Me*/
 
-}
+
 .pic img {
-  width: 100%;
-  height: auto;
-  margin-top: -10;
+	width: 30%;
+	height: 30%;
+  /*width: 100%;
+  height: auto;*/
+  margin-left: 87%;
+  border-radius: 50%;
+
 }
 @media (max-width: 480px) { 
   .col-md-5 { 
@@ -192,9 +194,25 @@ font-family: 'Indie Flower', cursive;
 {
 	opacity: 0.5;
 	font-size: 50px;
+	padding-top: 50px;
 	
 }
 
+.dl-horizontal
+{
+	font-size: 20px;
+	opacity: 0.5;
+	margin-top: 20px;
+}
+
+.aboutme h3
+{
+	
+	margin-top: 20px;
+	margin-bottom:30px;
+	float: center;
+	opacity: 0.5;
+}
 
 
 
